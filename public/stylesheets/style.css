@@ -1,0 +1,173 @@
+.parallax-container {
+      height: 600px;
+    }
+    .parallax-layer {
+	    position: absolute;
+	}
+	.parallax {
+		opacity: 0.5;
+	}
+	.aboutus-big-icon {
+		width: 75px;
+		height: 75px;
+		display: block;
+		float: left;
+		margin-right: 18px;
+		background-image: url(../images/big-icons.png);
+		background-repeat: no-repeat;
+	}
+	.big-icon-responsive{
+		background-position: 0 0;
+	}
+	.big-icon-retina{
+		background-position: 0 -75px;
+	}
+	.big-icon-admin{
+		background-position: -75px 0;
+	}
+	.big-icon-support{
+		background-position: -75px -75px;
+	}
+	.big-icon-customize{
+		background-position: -150px 0;
+	}
+	.big-icon-documented{
+		background-position: -150px -75px;
+	}
+
+	.section-header{
+		text-align: center;
+	}
+
+  .section-header h2 {
+    font: 35px/1.5 ralewaysemibold,Verdana;
+  }
+
+  .section-heafer .section-description {
+    font: 15px/1.5 ralewaysemibold,Verdana;
+  }
+
+  .aboutus-content ul li {
+    margin-bottom: 50px;
+    padding: 0 100px !important;
+  }
+
+	.aboutus-content-details{
+		font: 11px/1.5 ralewaysemibold,Verdana;
+		color: #555;
+		text-transform: uppercase;
+		margin-bottom: 3px;
+	}
+
+	.aboutus-content-details h4 {
+		font-size: 1rem;
+		line-height: 0.5rem;
+		margin: 1.14rem 0 0.912rem 0;
+	}
+
+  .aboutus-content-list li{
+    opacity: 0;
+  }
+
+  .imgmember{
+    opacity: 0;
+  }
+
+	.team-member {
+		margin: -15px;
+		text-align: center;
+	}
+	.member-quote {
+		padding: 15px;
+	}
+
+	.progress {
+		height: 20px;
+		/*margin: 15px;*/
+		margin-bottom: 45px;
+	}
+
+	.progress span{
+		color: #fff;
+		font: 10px/21px ralewaybold,Verdana;
+		position: absolute;
+		left: 15px;
+		z-index: 15;
+		text-transform: uppercase;
+	}
+
+  #animation {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+  }
+
+  #animation:hover{
+    width: 100%;
+  }
+
+	.ruby {
+    width: 80%;
+		/*margin: -11px;*/
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+	}
+
+  .scala{
+    width: 80%;
+  }
+
+  .php {
+    width: 75%;
+  }
+
+  .angular {
+    width: 60%;
+  }
+
+  .nodejs {
+    width: 70%;
+  }
+
+  .htmlcss{
+    width: 70%;
+  }
+
+  .ruby:hover{
+    width: 70%;
+  }
+
+	.contactSubmit {
+		text-align: center;
+	}
+
+	.brand-logo {
+		margin-top: 11px;
+		/*margin-left: 10px;*/
+	}
+
+  #logo{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  #logo:hover{
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+  }
+
+  #mobile-demo a {
+    display: block;
+  }
+
+  .md-margin2x {
+    clear: both;
+    text-align: center;
+    line-height: 60px;
+  }
