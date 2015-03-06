@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.2.0'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
@@ -44,3 +45,4 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'rails_12factor'
